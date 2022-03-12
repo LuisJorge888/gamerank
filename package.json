@@ -1,0 +1,35 @@
+{
+  "name": "rankgame",
+  "version": "1.0.0",
+  "description": "Pagina para calificar juegos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devDeamon": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisJorge888/gamerank.git"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "Jorge Luis Ruiz Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisJorge888/gamerank/issues"
+  },
+  "homepage": "https://github.com/LuisJorge888/gamerank#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
